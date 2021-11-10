@@ -1,0 +1,17 @@
+.Appy {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.Appy input{
+  margin-top: 10px;
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  justify-content: center;
+  padding-left: 10px;
+  border-radius: 7%;
+}

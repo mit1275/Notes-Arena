@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 3.25678897555rem 1fr 5rem;
+  height: 100%;
+}
+
+header {
+  grid-area: header;
+  background-color: #072a40;
+  width: auto;
+  /* fixing navbar */
+  position: fixed;
+  width: 100%;
+  z-index: 1001;
+}
+
+main {
+  font-family: "Trebuchet MS";
+  grid-area: main;
+  position: relative;
+  min-height: 70vh;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #072a40;
+  color: #f9f7f0;
+  z-index: 1000;
+  /* transform: translate(0%, -3.75976543%); */
+}

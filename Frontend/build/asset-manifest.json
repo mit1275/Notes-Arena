@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09419e21.chunk.css",
+    "main.js": "/static/js/main.a05b6c3a.chunk.js",
+    "main.js.map": "/static/js/main.a05b6c3a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d8902107.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d8902107.js.map",
+    "static/css/2.ccc6f86f.chunk.css": "/static/css/2.ccc6f86f.chunk.css",
+    "static/js/2.61175c9b.chunk.js": "/static/js/2.61175c9b.chunk.js",
+    "static/js/2.61175c9b.chunk.js.map": "/static/js/2.61175c9b.chunk.js.map",
+    "static/js/3.cd97908e.chunk.js": "/static/js/3.cd97908e.chunk.js",
+    "static/js/3.cd97908e.chunk.js.map": "/static/js/3.cd97908e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ccc6f86f.chunk.css.map": "/static/css/2.ccc6f86f.chunk.css.map",
+    "static/css/main.09419e21.chunk.css.map": "/static/css/main.09419e21.chunk.css.map",
+    "static/js/2.61175c9b.chunk.js.LICENSE.txt": "/static/js/2.61175c9b.chunk.js.LICENSE.txt",
+    "static/media/AMIT.b70371ea.jpeg": "/static/media/AMIT.b70371ea.jpeg",
+    "static/media/download.b7a96933.jfif": "/static/media/download.b7a96933.jfif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8902107.js",
+    "static/css/2.ccc6f86f.chunk.css",
+    "static/js/2.61175c9b.chunk.js",
+    "static/css/main.09419e21.chunk.css",
+    "static/js/main.a05b6c3a.chunk.js"
+  ]
+}
