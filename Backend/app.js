@@ -44,8 +44,8 @@ app.use(cors());
 env.config();
 
 //CONNECTING MONGO DB
-const uri ='mongodb+srv://mit1234:mit1234@cluster0.08pop.mongodb.net/project?retryWrites=true&w=majority&ssl=true';
-mongoose.connect('mongodb+srv://mit1234:mit1234@cluster0.08pop.mongodb.net/project?retryWrites=true&w=majority&ssl=true', {
+const uri =process.env.ATLAS_URI;
+mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

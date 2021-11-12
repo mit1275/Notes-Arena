@@ -15,14 +15,13 @@ feedbackRouter.post("/", expressAsyncHandler(async(req, res) => {
     const transporter = nodemailer.createTransport(
         sendgridTransport({
             auth: {
-                api_key:'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',
+                api_key:process.env.SEND_GRID,
             },
         })
     );
-    // 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
     transporter.sendMail({
         to: emails,
-        from: 'mit1275mit1234@gmail.com',
+        from: process.env.COMPANY_EMAIL,
         subject: "Feedback",
         html: `<h1>Welcome to Notes Arena</h1>
            <p></p>

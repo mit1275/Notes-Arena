@@ -1,7 +1,7 @@
 const jwt=require('jsonwebtoken');
 
 const generate=(id)=>{
-    return jwt.sign({id},"1234567uyasdfgghhjjkxvcbvbnmn567fhgjh234567556677",{
+    return jwt.sign({id},process.env.JWT_SECRET,{
         expiresIn:"20d",
     });
 };

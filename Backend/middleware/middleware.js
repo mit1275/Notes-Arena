@@ -7,7 +7,7 @@ const auth=async(req,res,next)=>{
   try{
 
     const token=req.cookies.jwt;
-    const verify=jwt.verify(token,"1234567uyasdfgghhjjkxvcbvbnmn567fhgjh234567556677");
+    const verify=jwt.verify(token,process.env.JWT_SCRET);
     console.log(verify);
     next();
   }catch(error){
