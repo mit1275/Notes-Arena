@@ -6,7 +6,6 @@ const env = require("dotenv");
 const cookieParser = require("cookie-parser");
 const http = require("http");
 const bodyParser = require("body-parser");
-// const sellerRoute = require("./router/SellerRouter.js");
 const studentRoute = require("./router/Student.js");
 
 const applicationRunning = require("./router/api.js");
@@ -23,7 +22,7 @@ const methodOverride = require("method-override");
 
 
 
-//DEFINING MODULES
+
 const app = express();
 const port = 3001 || process.env.PORT;
 const hostname = "localhost";
@@ -33,7 +32,6 @@ app.use(methodOverride("_method"));
 app.set("view engine", "ejs");
 app.use(require("./router/Student"));
 
-// const connection = mongoose.connection;
 
 app.use(express.static("public"));
 
